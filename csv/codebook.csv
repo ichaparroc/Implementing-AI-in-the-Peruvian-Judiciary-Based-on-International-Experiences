@@ -1,0 +1,23 @@
+﻿sheet,variable,description,values
+initiatives,id,Identifier of the initiative (ISO country code + sequence number).,Text
+initiatives,country,Country of the judicial body.,"Peru, Spain, France, Argentina, Colombia, Brazil, Singapore"
+initiatives,system,Name of the system or initiative as given in the sources.,Text
+initiatives,institution,Judicial body or judicial governance institution responsible.,Text
+initiatives,documented_function,Function(s) described in the selected sources.,Text
+initiatives,source_date,Date of the source documenting the status. Not interpreted as the creation date of the system unless the source says so.,"YYYY-MM-DD, YYYY-MM or YYYY; several dates separated by ';'"
+initiatives,documented_status,Implementation status as reported in the sources.,Text
+initiatives,status_category,Summary category of the documented status.,Production use; Pilot; Launch; Operational use; Institutional use; Institutional description; Approval and institutional access; Use recorded in a judicial decision; Phased deployment
+initiatives,scope,"Courts, modules or proceedings covered, as stated in the sources.","Text, or 'Insufficient information'"
+initiatives,evidence_type,Kind of document supporting the status.,Administrative act; Institutional report; Judicial decision
+initiatives,source_keys,"Citation keys of the supporting sources, matching the article's reference list.",Keys separated by ';'
+initiatives,notes,Grouping decisions and other remarks.,Text
+functional_coding,<category columns>,Whether each function is documented in the selected sources. Categories are not mutually exclusive. Document classification and legal assessment of claims are coded separately.,"'Documented' or 'Insufficient information'. A function not mentioned in the sources is coded as 'Insufficient information', not as absent."
+functional_coding,coding_basis,Description of the function from which the coding was derived.,Text
+functional_coding,anonymisation,Anonymisation / pseudonymisation,'Documented' or 'Insufficient information'
+functional_coding,information_extraction,Information extraction,'Documented' or 'Insufficient information'
+functional_coding,document_classification,Document classification,'Documented' or 'Insufficient information'
+functional_coding,similarity_grouping,Similarity analysis / grouping,'Documented' or 'Insufficient information'
+functional_coding,retrieval,Retrieval (case law / case files),'Documented' or 'Insufficient information'
+functional_coding,legal_assessment,Legal assessment of claims,'Documented' or 'Insufficient information'
+functional_coding,generative_drafting_summaries,"Generative assistance (drafts, summaries)",'Documented' or 'Insufficient information'
+functional_coding,translation,Translation,'Documented' or 'Insufficient information'
